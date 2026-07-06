@@ -48,7 +48,7 @@ gemini-proxy-server/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/gemini-proxy-server.git
+git clone https://github.com/KyawZayYa-c/gemini-proxy-server.git
 cd gemini-proxy-server
 
 # 2. Install dependencies
@@ -208,13 +208,13 @@ curl -X POST http://localhost:3000/api/gemini-proxy \
 All responses follow a consistent 3-part structure:
 
 ```
-### INTRODUCTION (နိဒါန်း)
+### INTRODUCTION 
 Brief introduction to the topic
 
-### MAIN CONTENT (အကြောင်းအရာ)
+### MAIN CONTENT 
 Detailed explanation with bullet points and numbered lists
 
-### CONCLUSION (နိဂုံး)
+### CONCLUSION
 Summary and final advice
 ```
 
@@ -255,10 +255,9 @@ For questions or support, please create an issue on GitHub.
 
 ## ⭐ Quick Links
 
-- [GitHub Repository](https://github.com/your-username/gemini-proxy-server)
-- [Live Demo](https://your-proxy.onrender.com/health)
-- [Issue Tracker](https://github.com/your-username/gemini-proxy-server/issues)
+- [GitHub Repository](https://github.com/KyawZayYa-c/gemini-proxy-server)
+- [Issue Tracker](https://github.com/KyawZayYa-c/gemini-proxy-server/issues)
 
 ---
 
-*Made with ❤️ for developers in Myanmar*
+*Made with ❤️ developed by Kyaw Zay Ya*
