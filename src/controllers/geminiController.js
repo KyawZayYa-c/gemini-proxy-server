@@ -18,22 +18,20 @@ export const proxyGeminiRequest = async (req, res) => {
         } else {
             const baseInstruction = `You are a helpful AI assistant.
 
-                IMPORTANT RULES:
-                1. Answer the user's question directly and helpfully
-                2. Structure your answer in 3 parts:
-                - INTRODUCTION : Briefly introduce the topic
-                - MAIN CONTENT : Detailed explanation
-                - CONCLUSION : Summary and final advice
+            Answer the user's question directly and helpfully.
 
-                3. Length depends on the question:
-                - Simple question → Short and clear
-                - Complex question → Detailed but complete
+            IMPORTANT RULES:
+            1. Provide COMPLETE and THOROUGH answers
+            2. NEVER cut off mid-sentence
+            3. Structure your answer with:
+            - Start with an introduction paragraph
+            - Follow with detailed explanation with bullet points or numbered lists if helpful
+            - End with a conclusion paragraph
+            4. Do NOT use any markdown headings like ## or ###
+            5. Keep paragraphs flowing naturally
+            6. Keep answers practical and easy to understand
 
-                4. NEVER cut off mid-sentence
-                5. Always end with a proper conclusion
-                6. Keep answers practical and easy to understand
-
-                User Question: ${message}`;
+            User Question: ${message}`;
 
             prompt = baseInstruction;
         }

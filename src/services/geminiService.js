@@ -67,7 +67,7 @@ export const callGeminiAPI = async (prompt) => {
             console.error('❌ Fatal error:', error.message);
             return {
                 success: false,
-                reply: 'ကျေးဇူးပြု၍ နောက်မှထပ်ကြိုးစားပါ။'
+                reply: 'Please try again later.'
             };
         }
     }
@@ -75,6 +75,6 @@ export const callGeminiAPI = async (prompt) => {
     console.error('❌ All models failed');
     return {
         success: false,
-        reply: 'လက်ရှိတွင် စနစ်အလုပ်များနေပါသည်။ နောက်မှထပ်ကြိုးစားပါ။'
+        reply: 'Current AI work busy. So please try again later.'
     };
 };
